@@ -24,6 +24,7 @@ NEEDS_LABEL = {
 REPO = "https://github.com/homkathon/awesome-opus-game-art-styles"
 PAGES = "https://homkathon.github.io/awesome-opus-game-art-styles"
 SITE = "https://homkathon.gokoding.com/styles"
+CATALOG = "https://mowangblog.github.io/awesome-opus-game-art-styles/styles/"
 
 
 def store(gid):
@@ -94,7 +95,7 @@ TEXT = {
         "techniques, tutorials, free assets and step-by-step agent notes.",
         start="Start here",
         links=[
-            ("🌐 Website", "[homkathon.gokoding.com/styles]({site}): search and filter every style, play the demos (Chinese UI)"),
+            ("🌐 Website", "[Chinese style catalog]({catalog}): search and filter every style, play the demos"),
             ("🤖 Claude Code skill", "Tell Opus 5.5: *Read {site}/install.md and install the game-art-style skill.* "
              "([source](skills/game-art-style/SKILL.md), works in Codex and Cursor too)"),
             ("▶️ Shader demos", "[Toon, PS1, 1-bit and pixelated 3D]({pages}/demos/), one commented HTML file each"),
@@ -111,7 +112,7 @@ TEXT = {
         "做出来才不会都长一个样。每种风格都有真实游戏截图、识别要点、实现技术、教程、免费素材和给智能体的实现步骤。",
         start="从这里开始",
         links=[
-            ("🌐 中文网页版", "[homkathon.gokoding.com/styles]({site})：搜索、分类筛选，翻截图、玩在线演示"),
+            ("🌐 中文网页版", "[游戏画风图鉴]({catalog})：搜索、分类筛选，翻截图、玩在线演示"),
             ("🤖 Claude Code 技能", "对 Opus 5.5 说：*读 {site}/install.md ，按步骤安装 game-art-style 技能。*"
              "（[源码](skills/game-art-style/SKILL.md)，Codex、Cursor 也能用）"),
             ("▶️ 着色器演示", "[卡通、PS1、1-bit、像素化 3D]({pages}/demos/)，每个都是一个带注释的 HTML 文件"),
@@ -181,7 +182,7 @@ def home(lang):
         "",
         "| | |",
         "|:--|:--|",
-        *[f"| **{k}** | {v.format(site=SITE, pages=PAGES, x=x_count)} |" for k, v in t["links"]],
+        *[f"| **{k}** | {v.format(site=SITE, catalog=CATALOG, pages=PAGES, x=x_count)} |" for k, v in t["links"]],
         "",
         t["note"],
         "",
