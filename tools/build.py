@@ -95,7 +95,7 @@ TEXT = {
         "techniques, tutorials, free assets and step-by-step agent notes.",
         start="Start here",
         links=[
-            ("🌐 Website", "[Chinese style catalog]({catalog}): search and filter every style, play the demos"),
+            ("🌐 Website", "[Chinese style catalog]({catalog}): search and filter every style, play the demos (Chinese UI)"),
             ("🤖 Claude Code skill", "Tell Opus 5.5: *Read {site}/install.md and install the game-art-style skill.* "
              "([source](skills/game-art-style/SKILL.md), works in Codex and Cursor too)"),
             ("▶️ Shader demos", "[Toon, PS1, 1-bit and pixelated 3D]({pages}/demos/), one commented HTML file each"),
