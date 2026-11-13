@@ -12,7 +12,7 @@
 
 | | |
 |:--|:--|
-| **🌐 Website** | [homkathon.gokoding.com/styles](https://homkathon.gokoding.com/styles): search and filter every style, play the demos (Chinese UI) |
+| **🌐 Website** | [Chinese style catalog](https://mowangblog.github.io/awesome-opus-game-art-styles/styles/): search and filter every style, play the demos (Chinese UI) |
 | **🤖 Claude Code skill** | Tell Opus 5.5: *Read https://homkathon.gokoding.com/styles/install.md and install the game-art-style skill.* ([source](skills/game-art-style/SKILL.md), works in Codex and Cursor too) |
 | **▶️ Shader demos** | [Toon, PS1, 1-bit and pixelated 3D](https://homkathon.github.io/awesome-opus-game-art-styles/demos/), one commented HTML file each |
 | **🎬 X post gallery** | [22 creator technique posts](https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/), playable and downloadable with credit |

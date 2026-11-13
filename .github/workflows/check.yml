@@ -26,5 +26,5 @@ jobs:
       - uses: lycheeverse/lychee-action@v2
         with:
           # tigsource, poly.pizza and nesdev block automated requests; the demos on Pages deploy after this check runs
-          args: --no-progress --max-retries 3 --exclude 'forums\.tigsource\.com' --exclude 'poly\.pizza' --exclude 'nesdev\.org' --exclude 'homkathon\.github\.io' README.md README.zh-CN.md CONTRIBUTING.md 'styles/**/README.md'
+          args: --no-progress --max-retries 3 --exclude 'forums\.tigsource\.com' --exclude 'poly\.pizza' --exclude 'nesdev\.org' --exclude 'homkathon\.github\.io' --exclude '^https://mowangblog\.github\.io/awesome-opus-game-art-styles/styles/' README.md README.zh-CN.md CONTRIBUTING.md 'styles/**/README.md'
           fail: true

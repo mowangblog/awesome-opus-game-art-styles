@@ -12,7 +12,7 @@
 
 | | |
 |:--|:--|
-| **🌐 中文网页版** | [homkathon.gokoding.com/styles](https://homkathon.gokoding.com/styles)：搜索、分类筛选，翻截图、玩在线演示 |
+| **🌐 中文网页版** | [游戏画风图鉴](https://mowangblog.github.io/awesome-opus-game-art-styles/styles/)：搜索、分类筛选，翻截图、玩在线演示 |
 | **🤖 Claude Code 技能** | 对 Opus 5.5 说：*读 https://homkathon.gokoding.com/styles/install.md ，按步骤安装 game-art-style 技能。*（[源码](skills/game-art-style/SKILL.md)，Codex、Cursor 也能用） |
 | **▶️ 着色器演示** | [卡通、PS1、1-bit、像素化 3D](https://homkathon.github.io/awesome-opus-game-art-styles/demos/)，每个都是一个带注释的 HTML 文件 |
 | **🎬 X 技术帖画廊** | [22 条创作者技术帖](https://homkathon.github.io/awesome-opus-game-art-styles/x-posts/)，可直接播放、下载，保留作者署名 |
